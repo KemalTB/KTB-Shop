@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+
+h1 {
+    color: $darkGreen;
+    text-align: center;    
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.btn-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+    margin: 2rem;
+    padding: 1rem;
+    button{
+        margin: 1rem 1.5rem;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 0 5px gray;
+        cursor: pointer;
+        
+    }
+    button:hover{
+        background-color: $kirmizi;
+        box-shadow: 0 0 5px black;
+        color: white;
+        font-weight: bold;
+        transition: 1s;
+    }
+
+
+}
