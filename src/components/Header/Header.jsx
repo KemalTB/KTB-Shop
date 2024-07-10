@@ -6,7 +6,7 @@ const Header = () => {
       <div className="btn-div">
               <button>ALL</button>
               <button>ELECTRONICS</button>
-              <button>JEVELERY</button>
+              <button>JEWELERY</button>
               <button>MEN'S CLOTHING</button>
               <button>WOMEN'S CLOTHING</button>
             </div>
