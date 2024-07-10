@@ -22,7 +22,7 @@ const ProductCard = () => {
 };
 
 const EscapingButton = () => {
-  const [position, setPosition] = useState({ top: 50, left: 50 });
+  const [position, setPosition] = useState({ top: 10, left: 80 });
 
   const escapeButton = () => {
     const newTop = Math.random() * 80 + 10; // Yeni konumun %10 ile %90 arasında olması için
