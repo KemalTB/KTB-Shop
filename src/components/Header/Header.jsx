@@ -2,7 +2,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <div>
-      <h1>Ktb-Shop-Berlin</h1>
+      <h1>KTB-Shop Berlin</h1>
       <div className="btn-div">
               <button>ALL</button>
               <button>ELECTRONICS</button>
